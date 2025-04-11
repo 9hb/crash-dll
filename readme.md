@@ -1,4 +1,4 @@
-# mylib (crashfex)
+# Crash-DLL
 
 Injektovatelná dynamická knihovna pro testování různých typů pádů a ukončení procesů v Windows aplikacích.
 
