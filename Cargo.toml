@@ -1,0 +1,19 @@
+[package]
+name = "mylib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "mylib"
+crate-type = ["cdylib"]
+
+[dependencies]
+winapi = { version = "0.3.5", features = [
+    "consoleapi",
+    "processenv",
+    "wincon",
+    "winnls",
+    "winnt",
+    "winbase",
+    "winuser",
+] }
